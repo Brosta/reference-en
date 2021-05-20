@@ -41,7 +41,7 @@ It also means that in an array with ten elements, index nine is the last element
 
 [source,arduino]
 ----
-int myArray[10]={9, 3, 2, 4, 3, 2, 7, 8, 9, 11};
+int myArray[10] = {9, 3, 2, 4, 3, 2, 7, 8, 9, 11};
 // myArray[9]    contains 11
 // myArray[10]   is invalid and contains random information (other memory address)
 ----
